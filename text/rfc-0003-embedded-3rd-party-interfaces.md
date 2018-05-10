@@ -16,7 +16,23 @@ TODO
 # Reference-level explanation
 [reference-level-explanation]: #reference-level-explanation
 
-TODO
+### Registering an Application (getting a token)
+
+User registers and an application through the accounts app, submitting this information.
+
+* id
+* named
+* thumbnail
+* business name
+* support URL
+* contact email
+
+In return they receive
+
+* private app token
+* refresh token
+* App ZUID (zesty unique identifier)
+* client app id (name)
 
 # Drawbacks
 [drawbacks]: #drawbacks
