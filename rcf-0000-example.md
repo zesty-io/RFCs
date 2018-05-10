@@ -1,4 +1,6 @@
-# RFC 0002 - API tokens
+# RFC 0000 - Example
+
+Name the RFC (max 6 words, include all words in file name e.g. rfc-0000-example.md)
 
 ## Summary
 
