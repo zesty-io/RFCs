@@ -2,7 +2,7 @@
 
 ## Summary
 
-Extension from RFC0001. Zesty.io needs a way for a 3rd Party UI to be loaded inside of the instance manager application.
+Extension from [RFC0001](rfc-0001-third-party-development-requirements.md). Zesty.io needs a way for a 3rd Party UI to be loaded inside of the instance manager application.
 
 ## Motivation
 
@@ -10,7 +10,7 @@ To allow for extensibility of our SaaS API, we need a way for developers to exte
 
 # Overview
 
-Zesty.io platform will be extended to provide a mechanism through which developers can take part in a 3rd party web applications ecosystem.  This 
+Zesty.io platform will be extended to provide a mechanism through which developers can take part in a 3rd party web applications ecosystem.  This
 will be achieved by providing developers the ability to submit JavaScript applications to run as part of the Zesty manager interface.  These applications will be given access to information and API tokens of the logged in user, and may call third party APIs as needed.
 
 ### Registering an Application (getting a token)
@@ -59,8 +59,8 @@ User submits for application approval into the 3rd party app store. This calls f
 
 # Alternatives
 
-* An alternative could be to not do this, and have developers only build apps that sit alongside Zesty using Zesty.io platform APIs.  However, 
-this would result in a fragmented user interface experience for the end user.  This approach allows both Zesty.io and third party provided app 
+* An alternative could be to not do this, and have developers only build apps that sit alongside Zesty using Zesty.io platform APIs.  However,
+this would result in a fragmented user interface experience for the end user.  This approach allows both Zesty.io and third party provided app
 functionality to share a common user interface
 
 # Unresolved questions
