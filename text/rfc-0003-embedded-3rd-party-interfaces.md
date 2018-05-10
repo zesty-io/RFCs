@@ -48,10 +48,15 @@ Applications must have their source code in a single javascript file, the link t
 * CSS and HTML should be generated in the JS
 * If the app is approved, a pull request can be made against our public repository
 
+Other Notes
+
+* Once the app is running from Zesty.io manager, it can leverage the cookie (if we still use that method for auth)
+* All endpoint consumed must be TLS
+* Third party APIs must have Zesty.io domains CORS enabled
+
 ### Submitting Application to App Store
 
 User submits for application approval into the 3rd party app store. This calls for Zesty.io team review. Approval means all Zesty.io instances would have access to "install" the app to their respective instance and have access to the 3r party app through the content manager UI.
-
 
 # Drawbacks
 
