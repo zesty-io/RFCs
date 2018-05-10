@@ -25,6 +25,8 @@ Developers building applications that interact with Zesty.io platform will need 
 
 * Application name (will be shown to user as part of OAuth 2 process)
 * Application callback URL (SSL protected URL that Zesty.io will hit as part of the OAuth 2 process)
+* Application description (text description covering the application's purpose)
+* Logo image (used to visually identify the application to users)
 
 Zesty.io platform will generate and issue the following for each third party developer application:
 
