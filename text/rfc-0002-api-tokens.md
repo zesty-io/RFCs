@@ -90,7 +90,9 @@ In addition to online documentation describing how to obtain, manage and work wi
 
 ## Alternatives
 
-TODO - are there alternative approaches that we should consider?
+Alternatives to the suggested approach could include:
+
+* Use of an API Gateway product such as [Apigee](https://apigee.com/api-management/#/homepage) or [Kong](https://konghq.com/)
 
 ## Unresolved Questions
 
