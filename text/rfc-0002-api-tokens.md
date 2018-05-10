@@ -27,7 +27,7 @@ Authenticates applications to the Zesty.io platform.  Permits applications to au
 
 #### Role to Instance Token
 
-A token which enables operations permitted by a Zesty.io platform role to be performed against a specific Zesty.io instance. 
+A token which enables operations permitted by a Zesty.io platform role to be performed against a specific Zesty.io instance.
 
 #### User to Platform Token
 
@@ -52,15 +52,19 @@ Tokens are:
 
 ### Process for Issuing Tokens
 
-TODO
+* OAuth 2 authorization code flow (for server apps)
 
 ### Process for Refreshing Tokens
 
-TODO
+* Refresh tokens exist with long expiry (plan is to not enforce refreshing until later)
+* No official refresh process at this time (May 2018)
+
 
 ### Process for Revoking Tokens
 
 TODO
+
+* All apps making calls must be secure
 
 ### Implementation Examples
 
