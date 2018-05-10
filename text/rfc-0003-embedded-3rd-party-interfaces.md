@@ -9,6 +9,7 @@ Extension from RFC0001. Zesty.io needs a way for a 3rd Party UI to be loaded ins
 To allow for extensibility of our SaaS API, we need a way for developers to extend our interface to work both with our APIs and their custom build 3rd party solutions. The ability to do this drives towards an open 3rd party marketplace that will customers and developers ways to solve problems outside of our core offering.
 
 # Guide-level explanation
+
 [guide-level-explanation]: #guide-level-explanation
 
 TODO
@@ -18,21 +19,25 @@ TODO
 
 ### Registering an Application (getting a token)
 
-User registers and an application through the accounts app, submitting this information.
+User registers an application through the accounts app, submitting this information:
 
-* id
-* named
-* thumbnail
-* business name
-* support URL
-* contact email
+* ID
+* Name
+* Thumbnail image
+* Business name
+* Support URL
+* Contact email
 
-In return they receive
+In return they receive:
 
-* private app token
-* refresh token
+* Private app token
+* Refresh token (we will not initially implement token refresh but developers should be prepared to store and use these in future)
 * App ZUID (zesty unique identifier)
-* client app id (name)
+* Client app id (name)
+
+### Application Requirements
+
+
 
 # Drawbacks
 [drawbacks]: #drawbacks
