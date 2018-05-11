@@ -40,20 +40,23 @@ A third party application must:
 * Be supplied as a "built" application - the Zesty.io platform will not provide an environment for transpiling or building JavaScript applications
 * Make all API calls to the Zesty platform and any external APIs that it uses on an SSL encrypted connection
 * Assume that it is running in the context of the Zesty.io platform manager app for a Zesty instance (3rd party applications will not run at the account level where they might concurrently have access to all of the logged in user's Zesty instances)
+* Provide a `thirdPartyApplication.main` function which will be called by Zesty.  This function should expect to receive the ID of the element in the Zesty manager app that the application's user interface should build itself within
 
 ### Loading an Application
 
-Applications must have their source code in a single JavaScript file, the link to that file must be submitted (could be GitHub or any CDN).
+Applications must have their source code in a single JavaScript file, and the link to that file must be submitted to Zesty for review (could be GitHub or any CDN).
 
-Working assumption is that this link would be provided in the YAML descriptor file for the application.
+Our working assumption is that this link would be provided in the YAML descriptor file for the application.
 
 * Only a single JavaScript file
 * CSS and HTML should be generated in the JavaScript
 * If the app is approved, a pull request can be made against our public repository
 
+Need to consider security here, should an MD5 hash of the JavaScript be submitted when the application is setup, and we should check that?  Load the JavaScript directly from GitHub using the provided URL, or have Zesty proxy it to obfuscate the original URL and perform security checks?
+
 #### Other Notes
 
-* Once the app is running from Zesty.io manager, it can leverage the logged in user's cookie (if we still use that method for auth)
+* Once the app is running from Zesty.io manager, it can leverage the logged in user's cookie (if we still use that method for auth) and other objects on the window
 * All endpoints consumed must be TLS
 * Third party APIs must have CORS enabled to allow access from Zesty.io domains
 
@@ -69,9 +72,7 @@ This calls for Zesty.io team review. Approval means all Zesty.io instances would
 
 # Alternatives
 
-* An alternative could be to not do this, and have developers only build apps that sit alongside Zesty using Zesty.io platform APIs.  However,
-this would result in a fragmented user interface experience for the end user.  This approach allows both Zesty.io and third party provided app
-functionality to share a common user interface
+* An alternative could be to not do this, and have developers only build apps that sit alongside Zesty using Zesty.io platform APIs.  However, this would result in a fragmented user interface experience for the end user.This approach allows both Zesty.io and third party provided app functionality to share a common user interface
 
 # Unresolved Questions
 
