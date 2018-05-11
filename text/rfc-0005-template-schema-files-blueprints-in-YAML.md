@@ -1,4 +1,4 @@
-# RFC 0004 - Template Schema Files (Blueprints) in YAML
+# RFC 0005 - Template Schema Files (Blueprints) in YAML
 
 ## Summary
 
