@@ -52,14 +52,14 @@ Converted from the [Zesty.io Material UI Blueprint](https://raw.githubuserconten
 ```
 Plate: Material UI
 Author: Zesty.io
-Head:  head.xhtml
+Head:  head.xhtml ## referenced below
 Collections:
 -
  label: Homepage
  name:  homepage
- view:  homepage.tpl
- type:  templateset # we need to update this naming convention
- content: homepage-item.yaml # referenced below
+ view:  views/homepage.tpl ### relative path
+ type:  templateset ### we need to update this naming convention
+ content: homepage-item.yaml ### referenced below
  fields:
   -
    name: title
@@ -96,13 +96,8 @@ Collections:
 
 ```
 
-<item link_title="Homepage" path_part="zesty_home">
-					<title><![CDATA[Material UI]]></title>
-					<content><![CDATA[<p>MUI is a lightweight CSS framework that follows Google's Material Design guidelines</p>]]></content>
-				</item>
-
-
 **homepage-item.yaml**
+
 ```
 -
  link_title: homepage
@@ -110,4 +105,41 @@ Collections:
  title: Material UI
  content: |
   <p>MUI is a "lightweight" CSS framework that follows Google's Material Design guidelines</p>
+```
+
+**clippings-items.yaml**
+
+```
+-
+ logo: assets/images/logo.jpg
+ site_name: Material UI
+ footer_text: Made with love by MUI
+```
+
+**head.xhtml**
+
+```
+<doctype>html5</doctype>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<script src="//cdn.muicss.com/mui-0.2.3/js/mui.min.js"></script>
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="//cdn.muicss.com/mui-0.2.3/webcomponents/mui-webcomponents.js"></script>
+
+<!-- load icon font -->
+<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<!-- fonts -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700" rel="stylesheet" type="text/css" />
+
+```
+
+**views/homepage.tpl**
+
+```
+<h1>{{page.title}}</h1>
+<hr>
+<p>{{page.content}}</p>
 ```
