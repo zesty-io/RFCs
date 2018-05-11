@@ -75,4 +75,5 @@ functionality to share a common user interface
 
 # Unresolved Questions
 
-TODO
+* Should Zesty provide a CDN hosted JavaScript helper library for pulling values from the user's session / dealing with the Zesty API?
+* Process for developing a 3rd Party interface prior to submission
