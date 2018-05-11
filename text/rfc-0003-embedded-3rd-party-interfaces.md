@@ -10,8 +10,7 @@ To allow for extensibility of our SaaS API, we need a way for developers to exte
 
 # Overview
 
-Zesty.io platform will be extended to provide a mechanism through which developers can take part in a 3rd party web applications ecosystem.  This
-will be achieved by providing developers the ability to submit JavaScript applications to run as part of the Zesty manager interface.  These applications will be given access to information and API tokens of the logged in user, and may call third party APIs as needed.
+Zesty.io platform will be extended to provide a mechanism through which developers can take part in a 3rd party web applications ecosystem.  This will be achieved by providing developers the ability to submit JavaScript applications to run as part of the Zesty manager interface.  These applications will be given access to information and API tokens of the logged in user, and may call third party APIs as needed.
 
 ### Registering an Application (getting a token)
 
@@ -23,6 +22,8 @@ User registers an application through the accounts app, submitting this informat
 * Business name
 * Support URL
 * Contact email
+
+We are considering using a YAML descriptor file to contain this information.
 
 In return they receive:
 
@@ -42,21 +43,25 @@ A third party application must:
 
 ### Loading an Application
 
-Applications must have their source code in a single javascript file, the link to that file must be submitted (could be github or any CDN).
+Applications must have their source code in a single JavaScript file, the link to that file must be submitted (could be GitHub or any CDN).
 
-* Only a single JS file
-* CSS and HTML should be generated in the JS
+Working assumption is that this link would be provided in the YAML descriptor file for the application.
+
+* Only a single JavaScript file
+* CSS and HTML should be generated in the JavaScript
 * If the app is approved, a pull request can be made against our public repository
 
-Other Notes
+#### Other Notes
 
-* Once the app is running from Zesty.io manager, it can leverage the cookie (if we still use that method for auth)
-* All endpoint consumed must be TLS
-* Third party APIs must have Zesty.io domains CORS enabled
+* Once the app is running from Zesty.io manager, it can leverage the logged in user's cookie (if we still use that method for auth)
+* All endpoints consumed must be TLS
+* Third party APIs must have CORS enabled to allow access from Zesty.io domains
 
 ### Submitting Application to App Store
 
-User submits for application approval into the 3rd party app store. This calls for Zesty.io team review. Approval means all Zesty.io instances would have access to "install" the app to their respective instance and have access to the 3r party app through the content manager UI.
+User submits for application approval into the 3rd party app store. 
+
+This calls for Zesty.io team review. Approval means all Zesty.io instances would have access to "install" the app to their respective instance and have access to the 3rd party app through the content manager UI.
 
 # Drawbacks
 
@@ -68,6 +73,6 @@ User submits for application approval into the 3rd party app store. This calls f
 this would result in a fragmented user interface experience for the end user.  This approach allows both Zesty.io and third party provided app
 functionality to share a common user interface
 
-# Unresolved questions
+# Unresolved Questions
 
 TODO
