@@ -1,5 +1,5 @@
 # RFCs
-Zesty.io Plaform Requests for Comments
+Zesty.io Platform Requests for Comments
 
 ## Diagram library
 
