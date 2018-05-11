@@ -53,6 +53,7 @@ Collections:
  label: Homepage
  name:  homepage
  view:  homepage.tpl
+ type:  templateset # we need to update this naming convention
  fields:
   -
    label: Lead in title
