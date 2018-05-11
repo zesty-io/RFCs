@@ -143,3 +143,7 @@ Collections:
 <hr>
 <p>{{page.content}}</p>
 ```
+
+### How the YAML file is Used
+
+The file is read by javascript, and iterated through and executed against the instance-api.
