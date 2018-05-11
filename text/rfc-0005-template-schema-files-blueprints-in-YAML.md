@@ -15,7 +15,7 @@ An example of a full Blueprint can see on [Github](https://github.com/zesty-io/p
 
 **Changes**
 
-* Head would be abstracted into a head.xml file, that is optional referenced in the Blueprint YAML
+* Head would be abstracted into a head.xhtml file, that is optional referenced in the Blueprint YAML
 * Content that populates collection schemas will be abstracted to an optional content XML file
 * Clippings will no longer have a special reference point, but be treated as any other Schema
 * `Plate.xml` will be renamed to `blueprint.yaml`
@@ -45,24 +45,69 @@ Previously Collection Schema, called "ingredients", was defined in groups in the
 
 Each Collection (ingredient) was named by its type `templateset`, `pageset`, and `dataset`. Each type had difference behaviors. Collections (ingredients) also defined their content (items) inline. If more than one item was defined or a single item with large text blocks was defined, bloat occurred in the file, making the XML file hard to follow. Abstracting content (items) into their own respective files will reduce bloat and keep the schema file to schema.
 
-**Proposed definition in YAML**
+### Proposed YAML format for Blueprints
+
+Converted from the [Zesty.io Material UI Blueprint](https://raw.githubusercontent.com/zesty-io/plate-material-ui/master/plate.xml)
 
 ```
+Plate: Material UI
+Author: Zesty.io
+Head:  head.xhtml
 Collections:
 -
  label: Homepage
  name:  homepage
  view:  homepage.tpl
  type:  templateset # we need to update this naming convention
+ content: homepage-item.yaml # referenced below
  fields:
   -
-   label: Lead in title
    name: title
+   label: Lead in title
    type: text
    options:
     required: true
   -
-   label: Intro Text
    name: content
+   label: Intro Text
    type: wysiwyg_advanced
+-
+ label: Clippings
+ name:  clippings
+ type:  dataset
+ content: clippings-items.yaml
+ fields:
+  -
+   name: site_name
+   label: Site name
+   type: text
+   options:
+    required: true
+  -
+   name: logo
+   label: logo
+   type: images
+   options:
+    limit: 1
+  -
+   name: footer_text
+   label: Footer Text
+   type: text
+
+```
+
+<item link_title="Homepage" path_part="zesty_home">
+					<title><![CDATA[Material UI]]></title>
+					<content><![CDATA[<p>MUI is a lightweight CSS framework that follows Google's Material Design guidelines</p>]]></content>
+				</item>
+
+
+**homepage-item.yaml**
+```
+-
+ link_title: homepage
+ path_part: zesty_home
+ title: Material UI
+ content: |
+  <p>MUI is a "lightweight" CSS framework that follows Google's Material Design guidelines</p>
 ```
