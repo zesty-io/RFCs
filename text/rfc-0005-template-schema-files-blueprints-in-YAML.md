@@ -2,23 +2,25 @@
 
 ## Summary
 
-Templates (aka Blueprints) in the Zesty.io system are a collection of files that determine the content schema of an instance.  Optionally, files can also be included to build out a website for example: head mapping, HTML views, JavaScript, and styling. Anyone can create a template on GitHub. Templates install at instance creation, and run once. Once installed, the instance becomes independent from the template. The current format for schema in a template is written in XML, this RFC proposes a switch to [YAML](http://yaml.org/) 1.2.
+Templates (aka Blueprints) in the Zesty.io system are a collection of files that determine the content schema of an instance.  Optionally, files can also be included to build out a website.  For example: head mapping, HTML views, JavaScript, and styling. Anyone can create a template on GitHub. 
+
+Templates install at instance creation, and run once. Once installed, the instance becomes independent from the template. The current format for schema in a template is written in XML, this RFC proposes a switch to [YAML](http://yaml.org/) 1.2.
 
 ## Motivation
 
-Starting a new instance with a half baked content schema is a fast way to get going on a project, and creates a better experience. Allowing developers to control and maintain their own schema templates is important to the foundation of building fast websites and content APIs. The current format (XML) to write schemas is a bit sluggish and finicky. [YAML](http://yaml.org/) is a more human readable format that support comments.  A switch to this from XML will make it easier for developers to create, iterate, and share their creations. YAML is preferred over [JSON](https://www.json.org/) because of its readable format and its support for comments.
+Starting a new instance with a half baked content schema is a fast way to get going on a project, and creates a better experience. Allowing developers to control and maintain their own schema templates is important to the foundation of building fast websites and content APIs. The current format (XML) to write schemas is a bit sluggish and finicky. [YAML](http://yaml.org/) is a more human readable format that support comments.  A switch to this from XML will make it easier for developers to create, iterate, and share their creations. YAML is preferred over [JSON](https://www.json.org/) because of its readable format and support for comments.
 
 # Guide-level Explanation
 [guide-level-explanation]: #guide-level-explanation
 
-An example of a full Blueprint can see on [GitHub](https://github.com/zesty-io/plate-material-ui). This blueprint includes a very simple example of the schema https://raw.githubusercontent.com/zesty-io/plate-material-ui/master/plate.xml. It can be seen in the file that it conflates different concepts and assumes the instance will be launched with WWW components. Part of the switch from XML to YAML will included abstracting existing assumptions into separate optional files.
+An example of a full Blueprint can be seen on [GitHub](https://github.com/zesty-io/plate-material-ui). This Blueprint includes a very simple example of the schema https://raw.githubusercontent.com/zesty-io/plate-material-ui/master/plate.xml. It can be seen in the file that it conflates different concepts and assumes the instance will be launched with WWW components. Part of the switch from XML to YAML will included abstracting existing assumptions into separate optional files.
 
 **Changes**
 
-* Head would be abstracted into a head.xhtml file, that is optional referenced in the Blueprint YAML
+* Head would be abstracted into a `head.xhtml` file, that is optional referenced in the Blueprint YAML
 * Content that populates collection schemas will be abstracted to an optional content XML file
 * Clippings will no longer have a special reference point, but be treated as any other Schema
-* `Plate.xml` will be renamed to `blueprint.yaml`
+* `plate.xml` will be renamed to `blueprint.yaml`
 
 ## Handling Collection Schema
 
@@ -46,7 +48,7 @@ Each Collection (ingredient) was named by its type `templateset`, `pageset`, and
 
 ### Proposed YAML format for Blueprints
 
-Converted from the [Zesty.io Material UI Blueprint](https://raw.githubusercontent.com/zesty-io/plate-material-ui/master/plate.xml)
+Converted from the [Zesty.io Material UI Blueprint](https://raw.githubusercontent.com/zesty-io/plate-material-ui/master/plate.xml):
 
 ```
 Plate: Material UI
@@ -145,4 +147,4 @@ Collections:
 
 ### How the YAML file is Used
 
-The file is read by javascript, and iterated through and executed against the instance-api.
+The file is read by JavaScript, and iterated through and executed against the instance-api.
