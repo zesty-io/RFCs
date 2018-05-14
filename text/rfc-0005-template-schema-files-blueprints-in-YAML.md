@@ -48,12 +48,17 @@ Each Collection (ingredient) was named by its type `templateset`, `pageset`, and
 
 ### Proposed YAML format for Blueprints
 
-Converted from the [Zesty.io Material UI Blueprint](https://raw.githubusercontent.com/zesty-io/plate-material-ui/master/plate.xml):
+Converted from the [Zesty.io Material UI Blueprint](https://raw.githubusercontent.com/zesty-io/plate-material-ui/master/plate.xml). The Blueprint.yaml can be seen in raw format [here](https://raw.githubusercontent.com/zesty-io/plate-material-ui/master/blueprint.yaml)
 
 ```
-Plate: Material UI
-Author: Zesty.io
-Head:  head.xhtml ## referenced below
+Name: Material UI
+Meta:
+ Author: Zesty.io
+ Cover: cover.png
+ Shield: shield.png
+FileStructure:
+ Head:  head.xhtml ## referenced below
+ Views: views/
 Collections:
 -
  label: Homepage
@@ -94,7 +99,6 @@ Collections:
    name: footer_text
    label: Footer Text
    type: text
-
 ```
 
 **homepage-item.yaml**
