@@ -147,3 +147,7 @@ Collections:
 ### How the YAML file is Used
 
 The file is read by javascript, and iterated through and executed against the instance-api.
+
+# Testing
+
+You can test your YAML files through an input here https://zesty-io.github.io/schema-reader-ui/
