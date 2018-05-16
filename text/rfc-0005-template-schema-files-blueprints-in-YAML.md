@@ -101,7 +101,11 @@ Collections:
    type: text
 ```
 
-Note: image paths are relative to the YAML file, or can be complete image URLs.
+Notes: 
+
+* Image paths are relative to the YAML file, or can be complete image URLs
+* Field names cannot begin `_`, this is reserved
+* There are a list of reserved words that cannot be used for field names
 
 **homepage-item.yaml**
 
