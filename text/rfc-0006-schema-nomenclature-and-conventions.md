@@ -7,7 +7,7 @@ Blueprints are a quick start to an instance and are not synchronous to repositor
 Modules are a 3rd party installation for instances described [here](rfc-0003-embedded-3rd-party-interfaces.md).
 
 
-### Plugins (_was: Recipes_)
+### Plugins (_was: Recipes and Garnishes_)
 Plugins are a set of instructions to build a Content Structure in Zesty.io, which includes at least one Collection that requires routing and may include multiple Collections. They may include HTML and Parsley template files, style sheets, javascript files, and media references. Modules may be installed at the initial creation from a blueprint or any time after.
 
 
@@ -20,3 +20,7 @@ Fields are components of collections which define the name of a column and the t
 
 ### Contents (_was: items_)
 Contents are a one to one mappings of data to the Fields in a Collection. The data in the Contents must conform to the type of field described in the collection. Images must be relative URLs to the repository of the Collection or remote URLS.
+
+### Style Variables (_was: Plate Variables or LESS Variables_)
+Style Variables is a collection of Fields specificly used for style atributes of an instance's front end. These variables can be refrenced in custom LESS or SCSS files within the Zesty.io instance. The initial Fields and values can be set with a Blueprint or Plugin and can be updated in the Config or Editor tab of the manager interface.
+
