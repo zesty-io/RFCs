@@ -1,3 +1,7 @@
+# RFC 0005 - Template Schema Files (Blueprints) in YAML
+
+## Restricted
+
 These names are restrcited for field names:
             'zid',
             'zuid',
