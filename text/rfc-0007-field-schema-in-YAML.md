@@ -1,46 +1,44 @@
-# RFC 0005 - Template Schema Files (Blueprints) in YAML
+# RFC 0007 - Field Schema in YAML
 
-## Restricted
+## Reserved Field Names
 
-These names are restrcited for field names:
-            'zid',
-            'zuid',
-            'master_zuid',
-            'parent_zuid',
-            'set_zuid',
-            'land_id',
-            'icon',
-            'type',
-            'set_name',
-            'path_full',
-            'path_part',
-            'seo_link_title',
-            'seo_meta_description',
-            'seo_meta_keywords',
-            'path_part',
-            'created_at',
-            'updated_at',
-            'deleted_at',
-            'listed',
-            'created_by_user_zuid',
-            'updated_by_user_zuid',
-            'last_edited_id',
-            'last_updated',
-            'show_add_new_set_item',
-            'recipe',
-            'garnish',
-            'sitemap_priority',
-            'canonical_tag_mode',
-            'canonical_query_param_whitelist',
-            '_meta_description',
-            '_meta_title',
-            '_meta_keywords',
-            '_meta_link_text',
-            '_created_by_user_zuid',
-            '_created_at',
-            '_item_zuid',
-            '_version_zuid',
-            '_version',
-            '_lang',
-            'last_updated',
-            'last_edited_id',
+Field names may not begin with `_`.  Additionally, the following are reserved field names that may not be used:
+
+* `_meta_description`
+* `_meta_title`
+* `_meta_keywords`
+* `_meta_link_text`
+* `_created_by_user_zuid`
+* `_created_at`
+* `_item_zuid`
+* `_version_zuid`
+* `_version`
+* `_lang`
+* `canonical_tag_mode`
+* `canonical_query_param_whitelist`
+* `created_at`
+* `created_by_user_zuid`
+* `deleted_at`
+* `garnish`
+* `icon`
+* `land_id`
+* `last_edited_id`
+* `last_updated`
+* `listed`
+* `master_zuid`
+* `parent_zuid`
+* `path_full`
+* `path_part`
+* `recipe`
+* `seo_link_title`
+* `seo_meta_description`
+* `seo_meta_keywords`
+* `set_name`
+* `set_zuid`
+* `show_add_new_set_item`
+* `sitemap_priority`
+* `type`
+* `updated_at`
+* `updated_by_user_zuid`
+* `zid`
+* `zuid`
