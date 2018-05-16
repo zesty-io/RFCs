@@ -101,6 +101,8 @@ Collections:
    type: text
 ```
 
+Note: image paths are relative to the YAML file, or can be complete image URLs.
+
 **homepage-item.yaml**
 
 ```
