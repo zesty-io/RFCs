@@ -1,8 +1,8 @@
-# RFC 0005 - Template Schema Files (Blueprints) in YAML
+# RFC 0005 - Blueprint Schema Files in YAML
 
 ## Summary
 
-Templates (aka Blueprints) in the Zesty.io system are a collection of files that determine the content schema of an instance.  Optionally, files can also be included to build out a website.  For example: head mapping, HTML views, JavaScript, and styling. Anyone can create a template on GitHub.
+Blueprints in the Zesty.io system are a collection of files that determine the content schema of an instance.  Optionally, files can also be included to build out a website.  For example: head mapping, HTML views, JavaScript, and styling. Anyone can create a template on GitHub.
 
 Templates install at instance creation, and run once. Once installed, the instance becomes independent from the template. The current format for schema in a template is written in XML, this RFC proposes a switch to [YAML](http://yaml.org/) 1.2.
 
