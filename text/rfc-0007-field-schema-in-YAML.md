@@ -107,6 +107,10 @@ Available field types are as follows.  Existing documentation regardint fields c
 * Limit: 150 characters
 * Example `Hello, World!`
 
+### textarea
+
+* Description: TODO
+
 ### wysiwyg_advanced
 
 * Description: TODO
