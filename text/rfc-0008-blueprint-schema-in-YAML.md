@@ -29,6 +29,8 @@ The outline for the Blueprint YAML is:
   * name:  Parsley Reference Name
   * view:  Relative path to related view TPL
   * type:  Page, Page Group or Dataset
+  * hasRoute: true if collection is routable, otherwise false
+  * showAsTable: true if collection should be displayed as a table in Zesty.io manager, otherwise false
   * content: Relative Path to related Contents YAML
   * fields: See Fields YAML RFC
    
