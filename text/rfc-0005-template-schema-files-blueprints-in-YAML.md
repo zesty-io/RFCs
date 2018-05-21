@@ -111,8 +111,8 @@ Notes:
 
 ```
 -
- link_title: homepage
- path_part: zesty_home
+ linkTitle: homepage
+ pathPart: zesty_home
  title: Material UI
  content: |
   <p>MUI is a "lightweight" CSS framework that follows Google's Material Design guidelines</p>
@@ -123,8 +123,8 @@ Notes:
 ```
 -
  logo: assets/images/logo.jpg
- site_name: Material UI
- footer_text: Made with love by MUI
+ siteName: Material UI
+ footerText: Made with love by MUI
 ```
 
 **head.xhtml**

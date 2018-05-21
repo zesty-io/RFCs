@@ -34,19 +34,19 @@ The outline for the Blueprint YAML is:
    
 ## Initial Settings and Default Values
 * general:
-  * robots_on: true
-  * site_protocol: http
-  * always_redirect_to_https: false
-  * preferred_domain_prefix: false
-  * show_in_title: true
+  * robotsOn: true
+  * siteProtocol: http
+  * alwaysRedirectToHttps: false
+  * preferredDomainPrefix: false
+  * showInTitle: true
 * developer:
-  * ajax_cors_allow_any_origin: false
-  * parsley_debugger: false
+  * ajaxCorsAllowAnyOrigin: false
+  * parsleyDebugger: false
   * tips: true
-  * basic_content_api_enabled: false
-  * basic_content_api_cors_allow_any_origin: false
-  * auto_include_js_in_head: true 
+  * basicContentApiEnabled: false
+  * basicContentApiCorsAllowAnyOrigin: false
+  * autoIncludeJsInHead: true 
 * contact:
-  * sending_email: NULL
+  * sendingEmail: NULL
   * recipients: NULL # sends
-  * reply_email: NULL
+  * replyEmail: NULL
