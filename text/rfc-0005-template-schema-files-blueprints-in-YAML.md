@@ -51,15 +51,15 @@ Each Collection (ingredient) was named by its type `templateset`, `pageset`, and
 Converted from the [Zesty.io Material UI Blueprint](https://raw.githubusercontent.com/zesty-io/plate-material-ui/master/plate.xml). The Blueprint.yaml can be seen in raw format [here](https://raw.githubusercontent.com/zesty-io/plate-material-ui/master/blueprint.yaml)
 
 ```
-Name: Material UI
-Meta:
- Author: Zesty.io
- Cover: cover.png
- Shield: shield.png
-FileStructure:
- Head:  head.xhtml ## referenced below
- Views: views/
-Collections:
+name: Material UI
+meta:
+ author: Zesty.io
+ cover: cover.png
+ shield: shield.png
+files:
+ head:  head.xhtml ## referenced below
+ views: views/
+collections:
 -
  label: Homepage
  name:  homepage
