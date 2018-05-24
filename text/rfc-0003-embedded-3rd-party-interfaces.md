@@ -22,8 +22,21 @@ User registers an application through the accounts app, submitting this informat
 * Business name
 * Support URL
 * Contact email
+* App entry point (JS file)
+* Definitions of any collection(s) that need to be added to the instance database to support the third party module's functionality
 
-We are considering using a YAML descriptor file to contain this information.
+We will use a YAML descriptor file to contain this information.  Example work in progress format for a third party application that does not require new collections in the instance DB:
+
+```yaml
+type: third_party_module
+id: 1-abdc-ffff-eeee
+name: Simon Test Application
+thumbnail: https://gravatar.com/avatar/ed8e8d3d26b896284596a5445581ab99?size=200
+author: Zesty.io
+supportUrl: https://zesty.io
+contactEmail: simon.prickett@zesty.io
+app: index.js
+```
 
 In return they receive:
 
