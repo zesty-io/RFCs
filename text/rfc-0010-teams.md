@@ -1,4 +1,4 @@
-# Zesty.io RFC 0009 - Teams
+# Zesty.io RFC 0010 - Teams
 
 ## Overview
 
