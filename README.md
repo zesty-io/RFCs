@@ -12,6 +12,7 @@ Zesty.io Platform Requests for Comments
 * [RFC-0007: Field Schema in YAML](text/rfc-0007-field-schema-in-YAML.md)
 * [RFC-0008: Blueprint Schema in YAML](text/rfc-0008-blueprint-schema-in-YAML.md)
 * [RFC-0009: Contents Schema in YAML](text/rfc-0009-contents-schema-in-YAML.md)
+* [RFC-0010: Teams](text/rfc-0010-teams.md)
 
 ## Diagram library
 
