@@ -16,10 +16,9 @@ Zesty.io platform will be extended to provide a mechanism through which develope
 
 User registers an application through the accounts app, submitting this information:
 
-* ID
-* Name
-* Thumbnail image
-* Business name
+* Application Name
+* Thumbnail image (for use in the dashboard)
+* Business name (author)
 * Support URL
 * Contact email
 * App entry point (JS file)
@@ -29,7 +28,7 @@ We will use a YAML descriptor file to contain this information.  Example work in
 
 ```yaml
 type: third_party_module
-id: 1-abdc-ffff-eeee
+zuid: 1-abdc-ffff-eeee
 name: Simon Test Application
 thumbnail: https://gravatar.com/avatar/ed8e8d3d26b896284596a5445581ab99?size=200
 author: Zesty.io
