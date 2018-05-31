@@ -1,4 +1,4 @@
-# RFC 0011 - Tagging in Zesty.io
+# RFC 0011 - Tagging Instances in Zesty.io
 
 ## Summary
 
