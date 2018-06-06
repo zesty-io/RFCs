@@ -2,7 +2,7 @@
 
 ## Overview
 
-Zesty currently allows for groups of Users to be given access to Instances through Companies. Company functionality, however, is very limited: Companies can only be created by staff Users and can be seen by all Users (regardless of if they are in the Company or not). This functionality will be augmented and redesigned as "Teams" in the new Accounts API. Users will be able to create and delete Teams, as well as invite other Users (by email) to join their Team. Users can be added or deleted from the Team by one of its admins. The Team will have a default Roles associated with it. Adding a Team to an Instance will grant all Users in that Team access to the Instance with the default Roles. Similarly, removing a Team from an Instance will remove all the team members' access to the Instance.
+Zesty currently allows for groups of Users to be given access to Instances through Companies. Company functionality, however, is very limited: Companies can only be created by staff Users and can be seen by all Users (regardless of if they are in the Company or not). This functionality will be augmented and redesigned as "Teams" in the new Accounts API. Users will be able to create and delete Teams, as well as invite other Users (by email) to join their Team. Users can be added or deleted from the Team by one of its admins. A Team can be invited to an instance, and invitation will determine the role of the Team for that Instance. Similarly, removing a Team from an Instance will remove all the team members' access to the Instance.
 
 Teams will be interacted with in a few ways:
   - Creation of Teams
@@ -29,7 +29,7 @@ The admins of a Team will be allowed to invite Users. The invitation will be don
 
 ### Adding a Team to an Instance
 
-Teams may be added to an Instance, which gives all Users in that Instance the default Role associated with the Team. If a User has a Team-assigned Role on a given Instance, and they are part of a different Team that is added to the same Instance, their Role will not change.
+Teams may be added to an Instance, which gives all Users in that Instance the Role defined in the invitation. If a User has a Team-assigned Role on a given Instance, and they are part of a different Team that is added to the same Instance, their Role will default to the highest priviledges.
 
 
 ### Accepting/Declining/Cancelling a Team Invite
