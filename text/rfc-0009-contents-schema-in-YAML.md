@@ -17,6 +17,8 @@ The outline for the Content YAML is:
   For example this would be another collection.
 
 ##  Path-Part or Path-Full
+The examples below show a pageset (A, B, C, D) parented to the page (A Page).
+
 ### Example 1: path-part
 `path-part` will prepend the path that you define with the defined parent. so the path will be: `my-domain.com/a-page/a`
                        ----------
