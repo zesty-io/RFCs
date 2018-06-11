@@ -37,7 +37,7 @@ The outline for the Content YAML is:
       * link-title: A
 
 ### Example 2: path-full
-`path-full` will prepend the path that you define with the parent(if defined) and domain. The path in this example will be: `my-domain.com/A/A1` If a parent was not define the path would be: `my-domain.com/A1`
+`path-full` will prepend the path that you define with the parent(if defined) and domain. The path in this example will be: `my-domain.com/A/A1` If a parent is not defined the path would be: `my-domain.com/A1`
                               ---------
                               | A page |
                               ----------
