@@ -24,7 +24,7 @@ Modules are a 3rd party installation for instances described [here](rfc-0003-emb
 ### Plugins (_was: Recipes and Garnishes_)
 Plugins are a set of instructions to build a Content Structure in Zesty.io, which includes at least one Collection that requires routing and may include multiple Collections. They may include HTML and Parsley template files, style sheets, javascript files, and media references. Modules may be installed at the initial creation from a blueprint or at any time after.
 
-### Collections  (_was: Sets, including Datasets, Pagesets, Templatesets_)
+### Content Models  (_was: Sets, including Datasets, Pagesets, Templatesets_)
 Collections describe the structure of content models by assigning sets of Fields. Each Collection functions as a table in a database where the fields are columns. Collection items are rows on the table with values able to be stored for each field.
 
 ### Fields (_was:  datatypes_ )
