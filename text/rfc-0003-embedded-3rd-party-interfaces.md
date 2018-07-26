@@ -16,26 +16,14 @@ Zesty.io platform will be extended to provide a mechanism through which develope
 
 User registers an application through the accounts app, submitting this information:
 
-* Application Name
-* Thumbnail image (for use in the dashboard)
-* Business name (author)
+* ID
+* Name
+* Thumbnail image
+* Business name
 * Support URL
 * Contact email
-* App entry point (JS file)
-* Definitions of any collection(s) that need to be added to the instance database to support the third party module's functionality
 
-We will use a YAML descriptor file to contain this information.  Example work in progress format for a third party application that does not require new collections in the instance DB:
-
-```yaml
-type: third_party_module
-zuid: 1-abdc-ffff-eeee
-name: Simon Test Application
-thumbnail: https://gravatar.com/avatar/ed8e8d3d26b896284596a5445581ab99?size=200
-author: Zesty.io
-supportUrl: https://zesty.io
-contactEmail: simon.prickett@zesty.io
-app: index.js
-```
+We are considering using a YAML descriptor file to contain this information.
 
 In return they receive:
 
@@ -74,7 +62,7 @@ Need to consider security here, should an MD5 hash of the JavaScript be submitte
 
 ### Submitting Application to App Store
 
-User submits for application approval into the 3rd party app store. 
+User submits for application approval into the 3rd party app store.
 
 This calls for Zesty.io team review. Approval means all Zesty.io instances would have access to "install" the app to their respective instance and have access to the 3rd party app through the content manager UI.
 
