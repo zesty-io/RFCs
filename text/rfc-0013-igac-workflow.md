@@ -1,10 +1,10 @@
-# RFC 0013 - IGAC Workflow in Zesty.io
+# RFC 0013 - IGACC Workflow in Zesty.io
 
 ## Summary
 
 All development teams have a workflow. Some work better for others at different sizes, office setups, team distribution etc., and it is a highly subjective and opinionated subject. We are going to clearly define a workflow it his RFC for engineers at Zesty.io. This will be a public document for both our internal team and external community to understand how the product evolves.
 
-Our workflow is one that starts with an idea and ends with communication. IGAC (idea > goal > activity > communication).
+Our workflow is one that starts with an idea and ends with customer communication. IGACC (idea > goal > activity > completion > communication).
 
 ## IGAC WorkFlow
 
@@ -32,12 +32,12 @@ Our workflow is one that starts with an idea and ends with communication. IGAC (
 6. Goal is Completed
 	* Goal Owner communicates launch plan to manager
 	* Goal is documented by the GO for both end user and internal consumption
-7. Final Communication
+7. Customer Communication
 	* Existing user base is notified to help them apply value to their existing product usage
 	* The market is alerted to help organizations understand prospective product usage
 
 
-## Terms
+## IGACC Terms
 
 **Product**: Software a user system can interact with.
 
