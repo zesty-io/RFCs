@@ -21,7 +21,7 @@ Our workflow is one that starts with an idea and ends with customer communicatio
 2. Idea is Converted to a **Goal**
 	* Goal is entered into the *Goal Queue*
 	* Goals are assigned to an owner
-	* Goals owner writes an RFCs and cover scope, dependencies, roadblocks etc.
+	* Goals owner writes an RFCs and cover high level scope, dependencies, roadblocks etc.
 	* Goal is discussed with a needs analysis, and given a target date
 3. Goal Becomes **Active**
 	* Goal leaves the queue and enters the active state
