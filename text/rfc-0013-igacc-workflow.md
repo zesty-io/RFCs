@@ -8,7 +8,7 @@ Our workflow is one that starts with an idea and ends with customer communicatio
 
 ## IGACC WorkFlow
 
-1. Introduction of an **Idea**
+1. **Idea** is conceived
  	* Origination should occur from one of these areas
 		* Customer feature request
 		* Internal team (usually based on industry need)
@@ -18,21 +18,22 @@ Our workflow is one that starts with an idea and ends with customer communicatio
  		* a) Idea stays an idea for refinement (stays in Step 1)
 		* b) Idea is converted to a Goal (proceeds to Step 2)
 		* c) Idea is turned down (terminated, documented, and removed from the flow)
-2. Idea is Converted to a **Goal**
-	* Goal is entered into the *Goal Queue*
+2. A **Goal** is formed from the Idea
+	* Goal is named and entered into the *Goal Queue*
 	* Goals are assigned to an owner
 	* Goals owner writes an RFCs and cover high level scope, dependencies, roadblocks etc.
 	* Goal is discussed with a needs analysis, and given a target date
-3. Goal Becomes **Active**
+3. **Activity** begins
 	* Goal leaves the queue and enters the active state
  	* Goal owner reviews RFC, builds task List
 	* Task list is reviewed with Goal Owner's manager
 	* Time is allocated to job task list, tasks are assigned to team members, and job is placed into roadmap.
 	* Team members start working against tasks to completion
-4. Goal is **Completed**
-	* Goal Owner communicates launch plan to manager
-	* Goal is documented by the GO for both end user and internal consumption
-5. Customer **Communication**
+4. **Completion** of a Goal
+	* Goal Owner and manager review the entirety of the Goal (GO may go back to step three from here)
+	* Goal Owner communicates launch plan to team
+	* Goal is documented by the Goal Owner for both end user and internal consumption
+5. **Communication** to the customer
 	* Existing user base is notified to help them apply value to their existing product usage
 	* The market is alerted to help organizations understand prospective product usage
 
