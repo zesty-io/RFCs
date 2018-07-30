@@ -14,7 +14,7 @@ Our workflow is one that starts with an idea and ends with customer communicatio
 		* Idea originates from internal team based on industry need
 		* Idea originates from requirement on the product roadmap
 	* Idea is documented in a place that those discussing it all have access to
-	* Idea Discussion *(three possible paths)*
+	* Idea discussion should lead to one of three possible outcome
  		* a) Idea stays an idea for refinement (stays in Step 1)
 		* b) Idea is converted to a Goal (proceeds to Step 2)
 		* c) Idea is turned down (terminated, documented, and removed from the flow)
