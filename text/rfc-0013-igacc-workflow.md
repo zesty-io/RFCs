@@ -30,9 +30,9 @@ Our team need to adopt a workflow that is relevant to our product and customers.
 	* Time is allocated to job task list, tasks are assigned to team members, and job is placed into roadmap.
 	* Team members start working against tasks to completion
 4. **Completion** of a Goal
-	* Goal Owner and manager review the entirety of the Goal (GO may go back to step three from here)
-	* Goal Owner communicates launch plan to team
+	* Goal Owner and manager review the entirety of the Goal (GO may need more activity to refine, which mean back to Step 3)
 	* Goal is documented by the Goal Owner for both end user and internal consumption
+	* Goal Owner communicates launch plan to team
 5. **Communication** to the customer
 	* Existing user base is notified to help them apply value to their existing product usage
 	* The market is alerted to help organizations understand prospective product usage
