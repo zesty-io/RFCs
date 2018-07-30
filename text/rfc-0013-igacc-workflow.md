@@ -6,33 +6,33 @@ All development teams have a workflow. Some work better for others at different 
 
 Our workflow is one that starts with an idea and ends with customer communication. IGACC (idea > goal > activity > completion > communication).
 
-## IGAC WorkFlow
+## IGACC WorkFlow
 
-1. Idea Origination
-	* Idea originates from user feature request
-	* Idea originates from internal team based on industry need
-	* Idea originates from requirement on the product roadmap
-2. Filing
-	* Idea is begins to be tracked and documented in a place that those discussing it all have access to
-3. Idea Discussion *(three possible results)*
- 	* a) Idea stays in discussion for refinement (stays in Step 3)
-	* b) Idea is converted to a Goal (proceeds to Step 4)
-	* c) Idea is turned down (terminated, documented, and removed from the flow)
-4. Idea is Converted to a Goal
+1. Idea is introduced
+ 	* Origination
+		* Idea originates from user feature request
+		* Idea originates from internal team based on industry need
+		* Idea originates from requirement on the product roadmap
+	* Idea is documented in a place that those discussing it all have access to
+	* Idea Discussion *(three possible results)*
+ 		* a) Idea stays an idea for refinement (stays in Step 1)
+		* b) Idea is converted to a Goal (proceeds to Step 2)
+		* c) Idea is turned down (terminated, documented, and removed from the flow)
+2. Idea is Converted to a Goal
 	* Goal is entered into the *Goal Queue*
 	* Goals are assigned to an owner
 	* Goals owner writes an RFCs and cover scope, dependencies, roadblocks etc.
 	* Goal is discussed with a needs analysis, and given a target date
-5. Goal Becomes Active
+3. Goal Becomes Active
 	* Goal leaves the queue and enters the active state
  	* Goal owner reviews RFC, builds task List
 	* Task list is reviewed with Goal Owner's manager
 	* Time is allocated to job task list, tasks are assigned to team members, and job is placed into roadmap.
 	* Team members start working against tasks to completion
-6. Goal is Completed
+4. Goal is Completed
 	* Goal Owner communicates launch plan to manager
 	* Goal is documented by the GO for both end user and internal consumption
-7. Customer Communication
+5. Customer Communication
 	* Existing user base is notified to help them apply value to their existing product usage
 	* The market is alerted to help organizations understand prospective product usage
 
