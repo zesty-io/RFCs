@@ -14,7 +14,7 @@ Our team need to adopt a workflow that is relevant to our product and customers.
 		* Internal team (usually based on industry need)
 		* A requirement from the product roadmap
 	* Idea is documented in a place that those discussing it all have access to
-	* Idea discussion should lead to one of three possible outcome
+	* Idea discussion should lead to one of three possible outcomes:
  		* a) Idea stays an idea for refinement (stays in Step 1)
 		* b) Idea is converted to a Goal (proceeds to Step 2)
 		* c) Idea is turned down (terminated, documented, and removed from the flow)
