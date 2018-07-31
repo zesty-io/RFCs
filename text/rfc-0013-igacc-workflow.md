@@ -8,33 +8,40 @@ Our team need to adopt a workflow that is relevant to our product and customers.
 
 ## IGACC WorkFlow
 
-1. **Idea** is conceived
+1. **Step 1:** **Idea** is discussed
  	* Origination should occur from one of these areas
 		* Customer feature request
 		* Internal team (usually based on industry need)
 		* A requirement from the product roadmap
+		* Bug or System Flaw requires a fundamental redesign
 	* Idea is documented in a place that those discussing it all have access to
 	* Idea discussion should lead to one of three possible outcome
  		* a) Idea stays an idea for refinement (stays in Step 1)
 		* b) Idea is converted to a Goal (proceeds to Step 2)
 		* c) Idea is turned down (terminated, documented, and removed from the flow)
-2. A **Goal** is formed from the Idea
+2. **Step 2:** A **Goal** is formed from the Idea
 	* Goal is named and entered into the *Goal Queue*
 	* Goals are assigned to an owner
 	* Goals owner writes an RFCs and cover high level scope, dependencies, roadblocks etc.
 	* Goal is discussed with a needs analysis, and given a target date
-3. **Activity** begins
+3. **Step 3:** Goal **Activity** begins
 	* Goal leaves the queue and enters the active state
  	* Goal owner reviews RFC, builds task List
 	* Task list is reviewed with Goal Owner's manager
 	* Time is allocated to job task list, tasks are assigned to team members, and job is placed into roadmap.
 	* Team members start working against tasks to completion
-4. **Completion** of a Goal
+4. **Step 4:** Goal is **Completed**
 	* Goal Owner and manager review the entirety of the Goal (GO may need more activity to refine, which mean back to Step 3)
 	* Goal is documented by the Goal Owner for both end user and internal consumption
 	* Goal Owner communicates launch plan to team
-5. **Communication** to the customer
-	* Existing user base is notified to help them apply value to their existing product usage
+5. **Step 5:** **Communication** to the customer
+	* Evaluate the impact of the completed work for these areas
+	 	* Business impact
+		* Recruitment
+		* Development Evangelism
+		* Community
+		* Sales and Marketing
+	* Affected users are notified to help them apply value to their existing product usage
 	* The market is alerted to help organizations understand prospective product usage
 
 
