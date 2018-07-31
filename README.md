@@ -14,6 +14,9 @@ Zesty.io Platform Requests for Comments
 * [RFC-0009: Contents Schema in YAML](text/rfc-0009-contents-schema-in-YAML.md)
 * [RFC-0010: Teams](text/rfc-0010-teams.md)
 * [RFC-0011: Tagging Instances](text/rfc-0011-tags.md)
+* [RFC-0012: Do Not Track Policy](text/rfc-0012-do-not-track-policy.md)
+* [RFC-0013: IGACC Workflow](text/rfc-0013-igacc-workflow.md)
+* [RFC-0014: Design System](text/rfc-0014-designsystem.md)
 
 ## Diagram library
 
