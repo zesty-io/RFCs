@@ -2,7 +2,7 @@
 
 ## Summary
 
-All development teams have a workflow. Some work better for others at different sizes, office setups, team distribution etc., and it is a highly subjective and opinionated subject. We are going to clearly define a workflow it his RFC for engineers at Zesty.io. This will be a public document for both our internal team and external community to understand how the product evolves.
+All development teams have a workflow. Some work better for others at different sizes, office setups, team distribution etc., and it is a highly subjective and opinionated subject. We are going to clearly define a workflow in this RFC for engineers at Zesty.io. This will be a public document for both our internal team and external community to understand how the product evolves.
 
 Our team need to adopt a workflow that is relevant to our product and customers. The proposed workflow is one that starts with an idea and ends with customer communication. IGACC (idea > goal > activity > completion > communication).
 
