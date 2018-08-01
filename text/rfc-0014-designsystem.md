@@ -21,3 +21,5 @@ At a certain point in a project, consistency across components becomes hard to m
 1. **Initial Generation:** Creation of all necessary Atoms and Molecules, adhering to a particular design style including color palate, typography, sizing and behavior.
 
 2. **Usage:** All front end developers will have access via an NPM package, and use only items from the design system package when implementing features, or new views. 
+
+[A lot of excellent examples of what we are trying to achieve](https://github.com/miukimiu/design-systems)
