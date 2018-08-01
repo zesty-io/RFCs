@@ -4,7 +4,7 @@
 
 At a certain point in a project, consistency across components becomes hard to maintain and can lead to a bad or confusing user experience. The goal of a design system is to minimize the need for individual developers to be tasked with styling the ui as functionality is added. “Design systems provide a convenient, centralized, and evolving map of a brand’s known product territories with directional pointers to help you explore new regions.” –Chris Messina, tech evangelist and former Developer Experience Lead at Uber.
 
-## Design System Nomenclature - atomic design
+## Design System Nomenclature - [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/)
 
 **Atom**: The smallest possible component.
 
