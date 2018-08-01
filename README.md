@@ -19,7 +19,8 @@ Zesty.io Platform Requests for Comments
 * [RFC-0014: Design System](text/rfc-0014-designsystem.md)
 * [RFC-0015: Instances API](text/rfc-0015-instances-api.md)
 * [RFC-0016: Interactive Content Layout](text/rfc-0016-interactive-content-layout.md)
-* [RFC-0017: Single Page Headers](text/rfc-0017-single-page-headers.md)
+* [RFC-0017: Instances UI](text/rfc-0017-instances-ui.md)
+* [RFC-0018: Single Page Head Tags](text/rfc-0018-single-page-headers.md)
 
 ## Diagram library
 
