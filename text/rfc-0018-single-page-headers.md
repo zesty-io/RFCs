@@ -1,4 +1,4 @@
-# RFC 0017 - Single Page Headers (Meta Tags)
+# RFC 0018 - Single Page Headers (Meta Tags)
 
 ## Summary
 
