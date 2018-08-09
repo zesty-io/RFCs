@@ -1,6 +1,9 @@
 # RFCs
 Zesty.io Platform Requests for Comments
 
+## How it works
+Customers can make requests here or comment on RFCs that then could make it in production. 
+
 ## RFC List
 
 * [RFC-0001: Third Party Development Requirements](text/rfc-0001-third-party-development-requirements.md)
