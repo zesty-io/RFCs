@@ -1,4 +1,4 @@
-community# RFC 0018 - IDE Plugin
+# RFC 0018 - IDE Plugin
 
 ## Summary
 
