@@ -25,9 +25,9 @@ From the tray, a view will require the input of a session code (used before we d
 
 ### Writing Files
 
-From there, files will be expects to share a filename with the view on the remote Zesty.io instance. On save, the file will be written to the instances api, since the instances api needs a zuid to write, on save the plugin will hit the `instances/web/views/` endpoint, and search a matching filename and zuid, then write to the `instances/web/view/:zuid` endpoint.
+From there, files will be expects to share a filename with the view on the remote Zesty.io instance. On save, the file will be written to the instances api, since the instances api needs a zuid to write, on save the plugin will hit the `instances/v1/web/views/` [endpoint](https://instances-api.zesty.org/#06c4fd96-346a-421c-8d37-3772c4bf226b), and search a matching filename and zuid, then write to the `instances/v1/web/views/:zuid` [endpoint](https://instances-api.zesty.org/#06c4fd96-346a-421c-8d37-3772c4bf226b). For css files, the `instances/v1/web/stylesheets/` [endpoint](https://instances-api.zesty.org/#f72b36b1-43cd-46cd-aae0-2e98cd9bbdda), and javascript the `instances/v1/web/scripts` [endpoints](https://instances-api.zesty.org/#83f109ba-94a8-4647-8cb7-06f2bfe291a0).
 
-To speed up this action, we should consider storing a file name tree map to zesty.json to reference on save or creation.
+To speed up the save action, we should consider storing a file name tree map to zesty.json to reference on save or creation.
 
 By default, files saves will write the file to the Zesty.io instance's "dev" branch. Currently Zesty.io only supports a dev and live branch. You can only write to dev. This is a place holder for branches.
 
