@@ -47,3 +47,4 @@ There are syncing and overwrite considerations which may or may not be relevant 
 
 - What should the load order be?
 - What should the overwrite considerations be?
+- Should we (could we) include media assets as well? (images, video, font files)
