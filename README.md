@@ -25,6 +25,7 @@ Customers can make requests here or comment on RFCs that then could make it in p
 * [RFC-0017: Instances UI](text/rfc-0017-instances-ui.md)
 * [RFC-0018: Single Page Head Tags](text/rfc-0018-single-page-headers.md)
 * [RFC-0019: IDE Plugin](text/rfc-0019-ide-plugin.md)
+* [RFC-0020: Zesty CLI Tool](text/rfc-0020-zesty-cli-tool.md)
 
 ## Diagram library
 
